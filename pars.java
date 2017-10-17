@@ -1,3 +1,5 @@
+//        Почему так?
+
         List<Article> articleList = new ArrayList<Article>();
             org.jsoup.nodes.Document doc = Jsoup.connect("http://4pda.ru").get();
                          Elements h1Elements = doc.getElementsByAttributeValue("class", "list-post-title");
